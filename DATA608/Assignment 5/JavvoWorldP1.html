@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 5</title>
+        <h2>Project 5 - Michael Muller</h2>
+    </head>
+
+    <body>
+<!-- Form -->   
+        <form name='reverser'>
+            <input type="text", size="15%", name='word'>
+            <input type="button", value="Reverse!", onClick=output_word()>
+        </form>
+
+<!-- Answer element -->   
+        <h3 id='wordReversed'>Your reversed word is...</h3>
+
+    
+
+
+
+<!--Script that uses 2+ functions as requested -->
+<script type="text/javascript">
+    function get_word(){
+        return document.reverser.word.value
+    };
+
+    function reverse_word(){
+        return get_word().split('').reverse().join('')
+    };
+
+    function output_word(){
+    document.getElementById('wordReversed').innerHTML = reverse_word()
+    };
+</script>
+
+ <!-- Always put script on the bottom so that aesthetics load first -->
+ <!-- Alternate 2 line script
+
+<script type="text/javascript">
+function output_word(){
+    document.getElementById('wordReversed').innerHTML = document.reverser.word.value.split('').reverse().join('')}
+
+</script>--> 
+<!-- Problem 2 --> 
+        <form name='matrixer'>
+            <input type="text", size="15%", name='number'>
+            <input type="button", value="Multiply!", onClick=output_table()>
+        </form>
+<!-- Answer element -->   
+        <h3 id='theMatrix'>Your multiples are...</h3>
+    </body>
+</html>
+
+<script type="text/javascript">
+    function create_table(){
+        number = parseInt(document.matrixer.number.value);
+        someArray = Array.from({length: 21}, (v, i) => i*number);
+        theTable = '<table><tr>'
+        for (k = 1;k<21;k++){
+            if(k % 5 === 0){theTable = theTable+'<td>'+someArray[k]+'</td><tr>'}
+         else{theTable = theTable+'<td>'+someArray[k]+'</td>'
+            }}
+        theTable = theTable +'</table>'
+        return theTable
+                                }
+    function output_table(){
+        theTable = create_table()
+        document.getElementById('theMatrix').innerHTML = theTable
+    }
+</script>
