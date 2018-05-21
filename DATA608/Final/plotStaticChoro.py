@@ -50,35 +50,30 @@ layout = graph_objs.Layout(
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/low_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(255, 255, 0,0.4)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/med_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(255, 69, 0,0.4)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/high_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(255,0, 0,0.4)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/void_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(192,192, 192,0.9)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/nyc_subway_line.geojson',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-red-data.json',
                 type = 'line',
                 color = 'rgba(0, 0, 0,.8)'
             )
