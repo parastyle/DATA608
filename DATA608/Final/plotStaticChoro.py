@@ -14,8 +14,8 @@ from plotly.offline import plot
 import plotly.plotly as py
 import plotly.graph_objs as graph_objs
 
-plotly.tools.set_credentials_file(username='Parastyle', api_key='bVEKNTpHflu2IpcnetwH')
-mapbox_access_token = 'pk.eyJ1IjoicGFyYXN0eWxlIiwiYSI6ImNqaDZ2MTlzcjAxYjEzM3BjNzUxNnVkZnAifQ.ekMqXJjfWyUj8PQJQ-hdlg'
+plotly.tools.set_credentials_file(username='', api_key='')
+mapbox_access_token = ''
 
 stations = pd.read_csv('https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/Stations.csv') 
 stations['stop_id'] = stations['GTFS Stop ID']
