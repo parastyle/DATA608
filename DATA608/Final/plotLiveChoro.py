@@ -50,21 +50,18 @@ layout = graph_objs.Layout(
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/green_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(82, 182, 114,0.4)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/red_data.json',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json',
                 type = 'fill',
                 color = 'rgba(190, 107, 23,0.4)'
             ),
             dict(
                 sourcetype = 'geojson',
                 source = 'https://raw.githubusercontent.com/parastyle/DATA608/master/DATA608/data/nyc_subway_line.geojson',
-                #source = 'https://raw.githubusercontent.com/plotly/datasets/master/florida-red-data.json',
                 type = 'line',
                 color = 'rgba(62, 243, 21,1)'
             )
