@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/390804/cf143694ea214f40a8f310f1ef92ece5
+bundleId: https://api.rpubs.com/api/v1/document/390804/cf143694ea214f40a8f310f1ef92ece5
+url: http://rpubs.com/abyscious/390804
+when: 1526869014.56239

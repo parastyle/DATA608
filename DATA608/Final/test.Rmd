@@ -1,0 +1,68 @@
+---
+title: "DATA 608 FINAL"
+author: "Michael Muller"
+date: "May 19, 2018"
+output:
+  rmarkdown::html_document:
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+library(knitr)
+```
+# DATA 608 FINAL : CUNY MSDA  
+
+Original goal : Plot predicted MTA delays based off GTFS live-feed data using a neighborhood layer choropleth.  
+
+Adjusted goal : Prototype a system to show live and static MTA data by neighborhood.  
+
+Whats here :  
+
+*Where MTA trains currently are, live! | (Using a sample of live-data)*
+
+*Neighorhood MTA Route Density | Map showing how many trains are available per neighborhood*  
+
+*Tables | The information I wanted to bring to the world (For real estate or urban development purposes)*
+
+Complications :   
+
+*Scheduled service changes, and line changes make monitoring live-data an incredibly difficult task to automate*  
+
+*Choropleth mapping is not at a sufficient technological state to easily support data streaming*  
+
+   
+  asdasdasda
+  
+  
+<iframe src="https://plot.ly/~parastyle/4.embed"
+        height="600" width="100%"
+        scrolling="no" seamless="seamless"
+        frameBorder="0">
+</iframe>
+
+
+<iframe src="https://plot.ly/~parastyle/6.embed"
+        height="600" width="100%"
+        scrolling="no" seamless="seamless"
+        frameBorder="0">
+</iframe>
+
+# somethingng  
+
+semoaseasdadasda
+
+<iframe src="https://plot.ly/~parastyle/8.embed"
+        height="600" width="49%"
+        scrolling="no" seamless="seamless"
+        frameBorder="0">
+</iframe>
+
+<iframe src="https://plot.ly/~parastyle/10.embed"
+        height="600" width="49%"
+        scrolling="no" seamless="seamless"
+        frameBorder="0">
+</iframe>
+
+
