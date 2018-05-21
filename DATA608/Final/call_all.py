@@ -47,7 +47,7 @@ def updates(dictionary):
     frame.columns = ['id','Date','route_id','arrival','departure','stop_id','schedule_relationship']
     return(frame)
 
-api_key = '8f06b8cf93a06466cc325406e73b7faf'
+api_key = ''
 
 
 
